@@ -1,0 +1,111 @@
+<html>
+<head>
+    <style> 
+    body{
+        background-size: cover;}
+        .v1{
+            position: fixed;
+            top: 0;
+            height: auto;
+            width: auto;
+            z-index: -999;
+        }
+        .container{
+            margin: 0;
+            padding: 0;
+            display: inline;
+        }
+   
+        .container ul{
+            overflow: hidden;
+            background-color: transparent;
+            list-style-type: none;
+            /* padding-left: 75%; */
+            margin:0px;
+            padding: 20px;
+            width:100%;
+            top: 0;
+            display:block;
+        }
+        .container  li{
+            float: left;
+            
+        }
+        .container li a{
+            text-decoration: none;
+            text-align: center;
+            color: aliceblue;
+            padding: 10px;
+            
+        }
+        .container li a:hover{
+            background-color: white;
+            color:black;
+        }
+        table{
+            margin-left: 40%;
+            border-color: burlywood;
+            font-size: 20px;
+            margin-top: 120px;
+        }
+        th{
+            background-color: burlywood;
+            color: white;
+        }
+        tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+        button{
+            background: transparent;
+            width:max-content;
+            border: hidden;
+            border-radius: 10%;
+        }
+        button a{
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+        }
+        </style>
+</head>
+<body>
+   <div class="container">
+  
+    <ul>
+        <li style="float: left; margin-left: 0; padding-right: 50%;"><b> Animal Diversity</b></li>
+               <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Animal">Animals</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+    <video class="v1" autoplay loop muted>
+        <source src="../images/Animals.mp4" type="video/mp4">
+    </video>
+
+   </div>
+   <table border="1">
+    <tr>
+    <th>Animal Name</th>
+    <th>Animal Family</th>
+    <th>Animal video </th>
+</tr>
+<tr>
+    <td>Tiger</td>
+    <td>Felidae</td>
+    <td><button><a href="Youtube.html">Click on Me</a></button></td>
+</tr>
+<tr>
+    <td>Deer</td>
+    <td>Cervidae</td>
+    <td><button><a href="Deer.html">Click on Me</a></button></td>
+</tr>
+<tr>
+    <td>Elephant</td>
+    <td>Elephantidae</td>
+    <td><button><a href="Elephant.html">Click on Me</a></button></td>
+</tr>
+</table>
+</body>
+</html>
